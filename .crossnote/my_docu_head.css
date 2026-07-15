@@ -1,0 +1,34 @@
+
+body {
+  counter-reset: chapter;
+  font-size: 10.5pt;
+  line-height: 1.8;
+}
+
+.title {
+  counter-reset: chapter;
+  font-size: 24pt;
+  line-height: 1.6;
+  text-align:center;
+}
+
+.newpage{
+  page-break-before:always;
+}
+
+h1 {
+  counter-reset: sub-chapter;
+}
+
+h2 {
+  counter-reset: section;
+}
+
+h3 {
+  counter-reset: sub-section;
+}
+
+h4 {
+  counter-reset: sub-sub-section;
+}
+

@@ -1,0 +1,21 @@
+{
+  "editor.fontSize": 12,
+  "markdown-pdf.styles": [
+    "./.crossnote/pdf.css"
+  ],
+  "markdown-pdf.margin.top": "2.5cm",
+  "markdown-pdf.margin.bottom": "3.5cm",
+  "markdown-pdf.margin.right": "2cm",
+  "markdown-pdf.margin.left": "2cm",
+  "markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; width: 100%; text-align: center;\"></div>",
+  "markdown-pdf.footerTemplate": "<div style=\"border-top: 1px solid #333; display: flex; padding-top: 10px; font-size: 9px; width: 100%;\"><div style=\"text-align: left; width: 20%; margin-left: 2cm;\"><div>  </div></div><div style=\"text-align: center; width: 60%;\"><div><span class='pageNumber'></span> / <span class='totalPages'></span></div></div><div style=\"text-align: right; width: 20%; margin-right: 2cm;\"><div>  </div></div></div>",
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#4b4b53",
+    "tab.hoverForeground": "#ffffff",
+    "tab.hoverBackground": "#2f3233",
+    "titleBar.activeBackground": "#1f44a0",
+    "titleBar.activeForeground": "#b4b9cd",
+    "titleBar.inactiveBackground": "#183170",
+    "titleBar.inactiveForeground": "#868fa7",
+  },
+}

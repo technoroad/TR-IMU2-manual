@@ -1,0 +1,39 @@
+h1::before {
+  counter-increment: chapter;
+  content: counter(chapter) ". ";
+}
+
+h2::before {
+  counter-increment: sub-chapter;
+  content: counter(chapter) "." counter(sub-chapter) ". ";
+}
+
+h3::before {
+  counter-increment: section;
+  content: counter(chapter) "." counter(sub-chapter) "." counter(section) ". ";
+}
+
+h4::before {
+  counter-increment: sub-section;
+  content: counter(chapter) "." counter(sub-chapter) "." counter(section) "." counter(sub-section) ".";
+}
+
+h5::before {
+  counter-increment: sub-sub-section;
+  content: counter(chapter) "." counter(sub-chapter) "." counter(section) "." counter(sub-section) "." counter(sub-sub-section) ".";
+}
+
+strong{
+  color: red;
+}
+
+/*箇条書き番号*/
+ol {
+    list-style-type: decimal;
+}
+ol ol {
+    list-style-type: lower-alpha;
+}
+ol ol ol {
+    list-style-type: lower-roman;
+}
