@@ -518,7 +518,7 @@ IMU の読み出しデータ幅を設定します。
 | 2 | VQF（double演算） |
 | 3 | VQF（double + float演算） |
 | 4 | VQF（float演算） |
-| 5 | Madgwick（float演算） |
+| 5 | Fusion（Madgwick） |
 
 ### accl_sensitivity 定義
 

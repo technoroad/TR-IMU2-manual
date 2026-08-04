@@ -489,7 +489,7 @@ IMUの読み出しデータ幅を設定します。
 | 2 | VQF（double演算） |
 | 3 | VQF（double + float演算） |
 | 4 | VQF（float演算） |
-| 5 | Madgwick（float演算） |
+| 5 | Fusion（Madgwick） |
 
 ### accl_sensitivity 定義
 加速度の感度を表します。実際の感度は受信値に1e-6を乗じた値になります。
